@@ -1,0 +1,360 @@
+<html>
+<head>
+    <title>Used Good</title>
+  
+    </head>
+    <script type="text/javascript" src="script.js"></script>
+    
+    
+
+    <style>
+        bode{
+           font-family:inherit;
+        }
+        .center{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            width:30%;
+        }
+         .center1{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            width:90%;
+        }
+    .button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+        .button2{
+            height:40px;
+            width:110px;
+                
+        }
+        
+        .button3{
+            height:40px;
+            width:110px;
+            
+        }
+        
+        .button4{
+            height:40px;
+            width:110px;
+        
+        }
+        #total{
+            clear:both;
+            float:right;
+        }
+        #price{
+            clear:both;
+            float:right;
+        }
+        #mainc{
+           background-color:white;
+            border-style: solid;
+            width:1100px;
+            margin: auto;
+            
+        }
+        #headerbuttons{
+            background-color: black;
+            border-style: solid;
+        }
+        #container{
+            
+            border-style: solid;
+          
+        }
+        #surity{
+            clear:both;
+            border-style: solid;
+        }
+        #otherimages{
+            border-style: solid;
+        }
+        #footer{
+            border-style: solid;
+             height:300px;
+            width:1095px;
+            margin-bottom:0;
+            background-color:gray;
+        
+        }
+        #mainimage{
+            width:450px;
+            border-style: solid;
+            float:left;
+        }
+        #mainimagetext{
+            width:550px;
+            height:300px;
+            border-style: solid;
+            float:right;
+            background-image: url("our%20vision.jpg");
+        }
+        .selected{
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        #downbutton{
+            border: solid;
+            padding:auto;
+        }
+       #car{
+            border: solid;
+        }
+       #product{
+            border: solid;
+        }
+       #mobile{
+            border: solid;
+        }
+       #washing{
+            border: solid;
+        }
+       #chair{
+            border: solid;
+        }
+     #tv{
+            border: solid;
+        }
+     #motercycle{
+            border: solid;
+        }
+    
+        .cart{
+             background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+        }
+        
+        
+        
+        
+    </style>
+<body bgcolor="#00bff">
+    <div id="mainc">
+    <div id="header"><img src="usedgood.jpg" class="center"><br><br></div>
+
+    
+    <div id="headerbuttons"> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="button"><a href="index.html" class="selected">HOME</a></button>&nbsp;&nbsp;
+         <button class="button"><a href="#" class="selected">SHOP US</a></button>&nbsp;&nbsp;
+         <button class="button"><a href="#codeword" class="selected">CONTACT US</a></button>&nbsp;&nbsp;
+         <button class="button"><a href="#" class="selected">About US</a></button>&nbsp;&nbsp;
+        
+        
+        
+    </div>
+        
+        
+        <div id="downbutton"><h2><p id="price">Selected:0 &nbsp;&nbsp;&nbsp;&nbsp;    </p><br> <p id="total">Total Price:0&nbsp;&nbsp;&nbsp;&nbsp;</p></h2><center>&nbsp;&nbsp;<button onclick="cart()" class="cart"><a href="index3.html">PROCEED TO CART</a></center></button></div>
+        
+        <div id="products">
+        <div id="car"><center><h1><font color="blue">CARS</font></center></h1><br>
+            <img src="car/1.jpg" height="350" width="350"><img src="car/2.jpg" height="350" width="350"><img src="car/3.jpg" height="350" width="350">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRICE:-950000
+            <button onclick="fun1()">ADD TO CART</button>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PRICE:-450000
+            <button onclick="fun2()">ADD TO CART</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRICE:-120000
+            <button onclick="fun3()">ADD TO CART</button>
+            </div>
+        <div id="chair">
+            
+            <center><h1><font color="blue">Furniture</h1></font></center></h1><br>
+            <img src="chair/1.jpg" height="350" width="350"><img src="chair/2.jpg" height="350" width="350"><img src="chair/3.jpg" height="350" width="350">
+            
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+PRICE:-5000
+            <button onclick="fun4()">ADD TO CART</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRICE:-4000
+            <button onclick="fun5()">ADD TO CART</button>
+            
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRICE:-8000
+            <button onclick="fun6()">ADD TO CART</button>
+            </div>
+        <div id="motercycle">
+            
+            <center><h1><font color="blue">Motercycle</font></center></h1><br>
+            <img src="motercycle/1.jpg" height="350" width="350"><img src="motercycle/2.png" height="350" width="350"><img src="motercycle/3.png" height="350" width="350">
+             <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+PRICE:-95000
+            <button onclick="fun7()">ADD TO CART</button>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ PRICE:-45000
+            <button onclick="fun8()">ADD TO CART</button>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   PRICE:-12000
+            <button onclick="fun9()">ADD TO CART</button>
+            </div>
+        <div id="mobile">
+            
+            <center><h1><font color="blue">Mobile</font></center></h1><br></center>
+            <img src="mobile/1.jpg" height="350" width="350"><img src="mobile/2.jpg" height="350" width="350"><img src="mobile/4.jpg" height="350" width="350">
+            
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+PRICE:-9500
+            <button onclick="fun10()">ADD TO CART</button>
+           
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ PRICE:-4500
+            <button onclick="fun11()">ADD TO CART</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRICE:-10000
+            <button onclick="fun12()">ADD TO CART</button>
+            </div>
+        <div id="washing">
+            
+            <center><h1><font color="blue">Washing Machine</font></center></h1><br>
+            <img src="washing/1.jpg" height="350" width="350"><img src="washing/2.jpg" height="350" width="350"><img src="washing/3.JPG" height="350" width="350">
+            
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+PRICE:-5000
+            <button onclick="fun13()">ADD TO CART</button>
+        
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PRICE:-4520
+            <button onclick="fun14()">ADD TO CART</button>
+        
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PRICE:-5620
+            <button onclick="fun15()">ADD TO CART</button>
+            </div>
+        <div id="tv">
+            <center><h1><font color="blue">TELEVISION</font></h1></center></h1><br>
+            <img src="tv/1.JPG" height="350" width="350"><img src="tv/2.jpg" height="350" width="350"><img src="tv/3.jpg" height="350" width="350">
+            
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+PRICE:-50000
+            <button onclick="fun16()">ADD TO CART</button>
+          
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+  PRICE:-20000
+            <button onclick="fun17()">ADD TO CART</button>
+          
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  PRICE:-12000
+            <button onclick="fun18()">ADD TO CART</button>
+            </div>
+   </div>
+    
+  <div id="footer">
+        <div id="1">
+    <h2><i>&nbsp;&nbsp;&nbsp;&nbsp;Contact details:</i></h2><h3><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+    sajal.agarwal702@gmail.com <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    phone:9461029372
+          
+    </h1>
+            </div>
+        <div id="2">
+        <h1><center><i><font face="arial">ABOUT US</font></i></h1>
+            <h4><br><center><font color="blue">This company started 5 years ago . <br>
+                ALL RIGHT RESERVED</center></div>
+        
+        
+        </div>
+        </div>
+    <br>
+    
+    
+    
+    
+    <A NAME="codeword">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <A NAME="codeword">
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
